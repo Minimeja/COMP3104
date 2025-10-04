@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: #20232a;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #61dafb;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
