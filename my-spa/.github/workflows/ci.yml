@@ -1,9 +1,8 @@
 name: Deploy React App
-
 on:
   push:
     branches:
-      - main  # Runs the workflow whenever you push to the main branch
+      - main
 
 jobs:
   build:
@@ -11,17 +10,17 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build the project
+      - name: Build the app
         run: npm run build
 
       - name: Deploy to GitHub Pages
