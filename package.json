@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Test passed!\""
-},
+    "test": "echo \"Test passed!\"",
+    "build": "echo \"Build successful!\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Minimeja/COMP3104.git"
